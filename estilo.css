@@ -197,7 +197,7 @@ html{
     margin: 30px auto;
 }
 .fila .servicio{
-    max-width: 350px;
+    width: 350px;
     background-color: #fff;
     padding: 30px;
     margin: 0 5px;
@@ -207,34 +207,9 @@ html{
 .fila .servicio:hover{
     box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
 }
-.servicio h4{
-    font-size: 22px;
-    margin-bottom: 25px;
-}
-.servicio .icono{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #d3d3d3;
-    padding: 20px;
-    margin-bottom: 25px;
-}
-.servicio hr{
-    width: 30%;
-    margin: auto;
-    color: #000;
-    margin-bottom: 25px;
-}
-.servicio ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-.servicio p{
-    font-size: 14px;
-    line-height: 22px;
+.servicio img{
+    width: 200px;
+    height: 200px;
 }
 /*Seccion HABILIDADES*/
 .contedor-skills{
@@ -344,6 +319,7 @@ html{
 .proyecto:hover img{
     filter: grayscale(0);
 }
+
 .info{
     position: absolute;
     left: 0;
@@ -354,6 +330,12 @@ html{
     opacity: 0;
     bottom: -40px;
     transition: .5s;
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ff5080;
+    border-radius: 9px;
 }
 .proyecto:hover .info{
     opacity: 1;
