@@ -221,15 +221,15 @@ html{
     padding: 100px 0;
     text-align: center;
 }
-.skill{
+.contedor-skills .skill{
     max-width: 600px;
     margin: 30px auto;
 }
-.skill .info{
+.contedor-skills .skill .info{
     display: flex;
     justify-content: space-between;
 }
-.skill .lista{
+.contedor-skills .skill .lista{
     display: inline-block;
     margin-right: 20px;
     height: 10px;
@@ -244,19 +244,19 @@ html{
 }
 .barra .barra-progreso1{
     background-color: #fff;
-    width: 95%;
+    width: 100%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 .barra .barra-progreso2{
     background-color: #fff;
-    width: 50%;
+    width: 100%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 .barra .barra-progreso3{
     background-color: #fff;
-    width: 40%;
+    width: 100%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
@@ -271,14 +271,14 @@ html{
     0%{width: 0;
     }
     100%{
-        width: 50%;
+        width: 100%;
     }
 }
 @keyframes barra-progreso3{
     0%{width: 0;
     }
     100%{
-        width: 40%;
+        width: 100%;
     }
 }
 /*Seccion PORTAFOLIO*/
