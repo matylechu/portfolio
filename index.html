@@ -21,7 +21,7 @@
                         <ul id="links">
                             <li><a href="#inicio" class="selecionado">INICIO</a></li>
                             <li><a href="#sobremi">SOBRE MI</a></li>
-                            <li><a href="#servicios">SERVICIOS</a></li>
+                            <li><a href="#servicios">HERRAMIENTAS</a></li>
                             <li><a href="#portfolio">PORTFOLIO</a></li>
                             <li><a href="#contacto">CONTACTO</a></li>
                         </ul>
@@ -187,16 +187,16 @@
     <section id="contacto">
         <h3 class="titulo-seccion">Contactanos ahora</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form action="https://formsubmit.co/matiaslechuga67@gmail.com" method="POST">
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad" name="name">
+                    <input type="text" placeholder="Numero de Telefono" class="input-mitad" name="phone">
                 </div>
                     <div class="fila">
-                        <input type="text" placeholder="Tema..." class="input-full">
+                        <input type="text" placeholder="Direccion de E-mail." class="input-full" name="email">
                     </div>
                     <div class="fila">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aqui....." class="input-full"></textarea>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aqui....." class="input-full"></textarea>
                     </div>
                     <input type="submit" value="Enviar Mensaje" class="btn-enviar">
             </form>
