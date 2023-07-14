@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,11 +19,11 @@
                     </h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" class="selecionado">INICIO</a></li>
-                            <li><a href="#sobremi">SOBRE MI</a></li>
-                            <li><a href="#servicios">HERRAMIENTAS</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contacto">CONTACTO</a></li>
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">HERRAMIENTAS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
                     </nav>
                     <!-- Iconos del menu responsive -->
@@ -94,11 +94,11 @@
     </section>
     <!-- Seccion Skills -->
     <section>
-        <div class="contedor-skills" id="skills">
+        <div class="contenedor-skills" id="skills">
             <h3 class="titulo-seccion"> EDUCACIÓN </h3>
             <div class="skill">
-                <div class="info">
-                    <p><span class="lista"></span>DESARROLLO WEB / HTML & CSS</p>
+                <div class="info-edu">
+                    <p><span class="lista"></span>Desarrollo Web</p>
                     <span class="porcentaje">100%</span>
                 </div>
                 <div class="barra">
@@ -107,7 +107,7 @@
             </div>
 
             <div class="skill">
-                <div class="info">
+                <div class="info-edu">
                     <p><span class="lista"></span>Javascript</p>
                     <span class="porcentaje">100%</span>
                 </div>
@@ -117,12 +117,32 @@
             </div>
 
             <div class="skill">
-                <div class="info">
+                <div class="info-edu">
                     <p><span class="lista"></span>React JS</p>
                     <span class="porcentaje">100%</span>
                 </div>
                 <div class="barra">
                     <div id="rt" class="barra-progreso3"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info-edu">
+                    <p><span class="lista"></span>Aplicaciones Móviles</p>
+                    <span class="porcentaje">100%</span>
+                </div>
+                <div class="barra">
+                    <div id="rt" class="barra-progreso4"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info-edu">
+                    <p><span class="lista"></span>Licenciatura en Desarrollo Web</p>
+                    <span class="porcentaje">30%</span>
+                </div>
+                <div class="barra">
+                    <div id="WEB" class="barra-progreso5"></div>
                 </div>
             </div>
         </div>
@@ -211,5 +231,6 @@
             <a href="https://www.linkedin.com/in/matias-lechuga-225b791a6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
